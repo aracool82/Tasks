@@ -13,4 +13,5 @@ public class ResourceGenerator : MonoBehaviour
         resource.Add(Random.Range(_minValue, _maxValue));
         return resource;
     }
+
 }
