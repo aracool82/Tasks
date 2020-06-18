@@ -28,4 +28,5 @@ public class Player : MonoBehaviour
     private void OnEnable () => _server.SendResource += OnSendResource;
 
     private void OnDisable () => _server.SendResource -= OnSendResource;
+
 }

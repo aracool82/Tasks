@@ -37,4 +37,5 @@ public class Server : MonoBehaviour
     }
 
     private void SendResources(IResourceble resource) => SendResource?.Invoke(resource);
+
 }
