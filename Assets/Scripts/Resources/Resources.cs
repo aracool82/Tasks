@@ -6,6 +6,7 @@ public interface IResourceble
     void Add(int amount);
 }
 
+
 public enum TypeResource 
 {
     Gold,

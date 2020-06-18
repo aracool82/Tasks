@@ -13,13 +13,7 @@ public class Display : MonoBehaviour
             _text.text = resource.Type.ToString() + ": " + resource.Amount.ToString();
     }
 
-    private void OnEnable()
-    {
-        _player.ChangeResource += OnChangeResource;
-    }
+    private void OnEnable() => _player.ChangeResource += OnChangeResource;
 
-    private void OnDisable()
-    {
-        _player.ChangeResource += OnChangeResource;
-    }
+    private void OnDisable() => _player.ChangeResource += OnChangeResource;
 }

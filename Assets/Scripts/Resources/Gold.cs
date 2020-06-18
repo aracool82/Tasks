@@ -10,4 +10,5 @@ public class Gold : IResourceble
     public TypeResource Type => _type;
 
     public void Add(int amount) => _amount += amount;
+
 }
